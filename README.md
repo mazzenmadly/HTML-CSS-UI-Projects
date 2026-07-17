@@ -22,3 +22,10 @@ A collection of static web interfaces originally created between 2023 and 2024 t
 ## 🛠️ Tech Stack
 * HTML5 (Semantic elements, Form inputs)
 * CSS3 (Flexbox, Hover effects, Component design)
+
+---
+
+## 📸 Historical Timeline Proof
+Here is a screenshot from the local machine showing the original creation dates of these files back in late 2022 and early 2023, before the recent UI updates:
+
+![Project History](./proof.png)
