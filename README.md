@@ -4,11 +4,11 @@ A collection of static web interfaces focusing on UI design and form controls us
 
 ## 🚀 Projects Included
 
-### 1. Instagram Login Clone (`/instagram-login`)
+### 1. 🌐 [Instagram Login Clone (Live Demo)](https://mazzenmadly.github.io/HTML-CSS-UI-Projects/instagram-login/)
 * **Description:** A responsive replica of Instagram's desktop login page.
 * **Key Features:** Uses CSS Flexbox for centering, custom button states (`:hover`), card component styling, and clean alignment.
 
-### 2. Custom Registration Form (`/custom-register-form`)
+### 2. 🌐 [Custom Registration Form (Live Demo)](https://mazzenmadly.github.io/HTML-CSS-UI-Projects/custom-register-form/)
 * **Description:** A multi-input user registration page.
 * **Key Features:** Features custom styled buttons, password input management, and structured forms using radio buttons and placeholders.
 
