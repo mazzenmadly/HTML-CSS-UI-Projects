@@ -12,6 +12,10 @@ A collection of static web interfaces focusing on UI design and form controls us
 * **Description:** A multi-input user registration page.
 * **Key Features:** Features custom styled buttons, password input management, and structured forms using radio buttons and placeholders.
 
+### 3. 🌐 [Apple Store - Customize iPhone (Live Demo)](https://mazzenmadly.github.io/HTML-CSS-UI-Projects/apple-store/)
+* **Description:** An elegant product customization interface modeled after the Apple Store.
+* **Key Features:** Clean modern selects, responsive form fields, subtle interactive hover transitions, and an official premium brand aesthetic.
+
 ## 🛠️ Tech Stack
 * HTML5 (Semantic elements, Form inputs)
 * CSS3 (Flexbox, Hover effects, Component design)
