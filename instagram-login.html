@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 350px;
+            background-color: white;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .login-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0095f6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #007bb5;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .divider span {
+            margin: 0 10px;
+            color: #999;
+        }
+
+        .forgot-password {
+            color: #0095f6;
+            text-decoration: none;
+        }
+
+        .signup {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .signup a {
+            color: #0095f6;
+            text-decoration: none;
+        }
+
+        .logo {
+            width: 100px; /* Adjust the size as needed */
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="logo">
+            <h1>Instagram</h1>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Username or email" name="username" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <button href="https://www.instagram.com/" type="submit">Log In</button>
+            </form>
+            <div class="divider">
+                <span>OR</span>
+            </div>
+            <a href="https://www.instagram.com/accounts/password/reset/" class="forgot-password">Forgot password?</a>
+            <div class="signup">
+                <p>Don't have an account? <a href="https://www.instagram.com/">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
