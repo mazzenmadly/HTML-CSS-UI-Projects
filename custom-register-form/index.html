@@ -1,92 +1,249 @@
-<html>
- <head>
-   <style>
-#f {
-  background-color: rgb(0, 127, 200);
-  -webkit-text-fill-color: rgb(255, 255, 255);
-  padding: 12px 70px;
-  font-size: medium;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazen Adly - Modern Register</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
 
-#g {
-  background-color: rgb(255, 255, 255);
- -webkit-text-fill-color: rgb(255, 0, 0);
- padding: 12px 70px;
- font-size: medium;
-}
+        .register-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
 
-   </style>
+        h1 {
+            color: #1a1a1a;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #666;
+            font-size: 16px;
+            font-weight: normal;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .social-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .social-btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 14px;
+            transition: opacity 0.2s;
+        }
+
+        #btn-fb {
+            background-color: #1877f2;
+            color: white;
+        }
+
+        #btn-google {
+            background-color: #ffffff;
+            color: #757575;
+            border: 1px solid #ddd;
+        }
+
+        .social-btn:hover {
+            opacity: 0.9;
+        }
+
+        .divider {
+            text-align: center;
+            color: #999;
+            margin: 15px 0;
+            font-size: 14px;
+            position: relative;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #444;
+            font-size: 14px;
+        }
+
+        .input-group input[type="text"],
+        .input-group input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 14px;
+            transition: border-color 0.2s;
+        }
+
+        .input-group input:focus {
+            border-color: #007fc8;
+            outline: none;
+        }
+
+        .radio-group {
+            margin-bottom: 15px;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 6px;
+        }
+
+        .radio-group strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .radio-options {
+            display: flex;
+            gap: 20px;
+            font-size: 14px;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn-login {
+            background-color: #007fc8;
+            color: white;
+        }
+
+        .btn-reset {
+            background-color: #e4e6eb;
+            color: #4b4f56;
+        }
+
+        .footer-links {
+            margin-top: 25px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .footer-links a {
+            color: #007fc8;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
- <center>
 
-<h1> mazen adly website </h1>
-<br>
-<h2>Welcome</h2>
-<form>
+    <div class="register-container">
+        <h1>Mazen Adly Website</h1>
+        <h2>Welcome</h2>
 
-  <button id="f"> sign with facbook  </button>
-  <button id="g"> sign with google </button>
-<br>
-<h2> or</h2>
-<br>
- <strong> fullname</strong> 
-     <br>
- <input type  ="text" placeholder="enter your name" >
-<br> <br>
+        <form>
+            <div class="social-buttons">
+                <button type="button" class="social-btn" id="btn-fb">Facebook</button>
+                <button type="button" class="social-btn" id="btn-google">Google</button>
+            </div>
 
-<strong> Username</strong> 
-     <br>
- <input type ="text"  placeholder=" Username">
-<br> <br>
+            <div class="divider">or</div>
 
-<STRONG>phone </STRONG>
-   <br>
- <input type="text" placeholder="your phone number">
- <br> <br>
+            <div class="input-group">
+                <strong>Full Name</strong>
+                <input type="text" placeholder="Enter your name">
+            </div>
 
-<STRONG>Email </STRONG>
-   <br>
- <input type ="text" placeholder="Email">
- <br> <br>
+            <div class="input-group">
+                <strong>Username</strong>
+                <input type="text" placeholder="Username">
+            </div>
 
-<strong> Password</strong>
- <br>
- <input type="password" placeholder=" enter your password">
- <br><br>
+            <div class="input-group">
+                <strong>Phone</strong>
+                <input type="text" placeholder="Your phone number">
+            </div>
 
- <strong>Confirm  password</strong>
- <br>
- <input type="password"placeholder="Confirm your password">
- <br><br>
+            <div class="input-group">
+                <strong>Email</strong>
+                <input type="text" placeholder="Email">
+            </div>
 
-<strong>Gender</strong>
-<br>
- male<input type="radio">
-female<input type="radio">
-<br> <br>
+            <div class="input-group">
+                <strong>Password</strong>
+                <input type="password" placeholder="Enter your password">
+            </div>
 
-<strong> Age</strong>
-<br>
- +18<input type="radio">
--18<input type="radio">
-<br> <br>
+            <div class="input-group">
+                <strong>Confirm Password</strong>
+                <input type="password" placeholder="Confirm your password">
+            </div>
 
-<input type="button" value="log in">
-<input type="button" value="reset">
-<br><br><br><br><br><br><br><br>
-<a href ="" > help
-<br>
-<a href ="" > forgot your password ?  
-       <br>
-<a href ="" > privacy
-       <br>
-<a href ="" > term service
+            <div class="radio-group">
+                <strong>Gender</strong>
+                <div class="radio-options">
+                    <label><input type="radio" name="gender"> Male</label>
+                    <label><input type="radio" name="gender"> Female</label>
+                </div>
+            </div>
 
+            <div class="radio-group">
+                <strong>Age</strong>
+                <div class="radio-options">
+                    <label><input type="radio" name="age"> +18</label>
+                    <label><input type="radio" name="age"> -18</label>
+                </div>
+            </div>
 
+            <div class="action-buttons">
+                <input type="button" class="action-btn btn-login" value="Log In">
+                <input type="button" class="action-btn btn-reset" value="Reset">
+            </div>
 
-       </form>
-   </center>
- </body>
+            <div class="footer-links">
+                <a href="#">Help</a> • 
+                <a href="#">Forgot Password?</a> • 
+                <a href="#">Privacy</a> • 
+                <a href="#">Terms of Service</a>
+            </div>
+        </form>
+    </div>
+
+</body>
 </html>
